@@ -1,0 +1,110 @@
+/* body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    gap: 10px;
+}
+/* Menu bar element */
+.header {
+    display: flex;
+    background-color: #F6B302;
+}
+.profile-img {
+    width: 150px;
+    height: 60px;
+}
+
+
+.nav-left {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 10px;
+    flex: 0.5;
+    gap: 20px;
+}
+
+.pages {
+    display: flex;
+    flex: 0.30;
+    gap: 20px;
+
+}
+
+.home,
+.shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background-color: #fff;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 0.5;
+    
+}
+button {
+    border: none;
+    margin-right: 15px;
+    background-color: #fff;
+
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+button a {
+    color: #000;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+/* coontainer elements */
+.container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/680/615/large_2x/portrait-of-confused-asian-man-looking-sideways-on-yellow-background-free-photo.jpg);
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+}
+.container h1, .container p {
+    margin-left: 15px;
+}
+
+/* footer elements */
+.footer-botton-left {
+    display: flex;
+    align-items: center;
+}
+
+.centect {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-botton {
+    display: flex;
+    flex-direction: column;
+}
